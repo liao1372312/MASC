@@ -11,4 +11,4 @@ Memory-Augmented Multi-Agent Service Composition(MASC) -An industry case study
 A brief demonstration of our method is available here:
 - All sensitive dataset samples have been replaced with synthetic data
 - Any identifiable personnel information has been removed (voice/face/names redacted)
-![example](example.gif)
+![example](demo.gif)
