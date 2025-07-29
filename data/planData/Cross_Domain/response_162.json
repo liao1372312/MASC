@@ -1,0 +1,30 @@
+{
+"user_query":"I'm a student working on a research project about historical events. Can you provide me with a list of significant historical events from different time periods? Additionally, I need access to primary sources related to these events. Moreover, I would like to find books or articles written by renowned historians on these topics. Finally, I want to create a timeline to visualize the sequence of events.",
+"domain":"Other",
+"TaskList": [
+{
+"id": 1,
+"description": "Gather a list of significant historical events from various time periods.",
+"domain": "other",
+"required_inputs": []
+},
+{
+"id": 2,
+"description": "Fetch primary sources related to the significant historical events identified in Step 1.",
+"domain": "other",
+"required_inputs": ["List of significant historical events"]
+},
+{
+"id": 3,
+"description": "Search for books or articles authored by renowned historians on the historical events.",
+"domain": "other",
+"required_inputs": ["List of significant historical events"]
+},
+{
+"id": 4,
+"description": "Create a timeline to visualize the sequence of historical events based on the data gathered.",
+"domain": "other",
+"required_inputs": ["List of significant historical events", "Primary sources", "Books or articles"]
+}
+]
+}

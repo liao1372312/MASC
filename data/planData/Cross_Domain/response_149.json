@@ -1,0 +1,24 @@
+{
+"user_query":"I'm planning a company event and I need some ideas to make it engaging and interactive. Can you provide a collection of random quotes and words to inspire creativity and teamwork? Additionally, I would like to gather news articles about successful corporate events for inspiration and guidance.",
+"domain":"Other",
+"TaskList": [
+{
+"id": 1,
+"description": "Gather a collection of random quotes related to creativity and teamwork.",
+"domain": "other",
+"required_inputs": ["quote category", "number of quotes"]
+},
+{
+"id": 2,
+"description": "Collect words and phrases that inspire creativity and teamwork.",
+"domain": "other",
+"required_inputs": ["word category", "number of words"]
+},
+{
+"id": 3,
+"description": "Search for news articles about successful corporate events.",
+"domain": "other",
+"required_inputs": ["search keywords", "number of articles"]
+}
+]
+}

@@ -1,0 +1,30 @@
+{
+"user_query":"I'm planning a family gathering and I want to prepare a delicious meal. Can you suggest some recipes that are both healthy and easy to make? Also, provide me with the nutritional information for the ingredients required in these recipes. Additionally, I need information on vaccination guidelines for children attending the gathering.",
+"domain":"Cross-Domain",
+"TaskList": [
+    {
+        "id": 1,
+        "description": "Search for healthy and easy recipes suitable for a family gathering.",
+        "domain": "medical",
+        "required_inputs": ["meal type", "preferred cuisines", "dietary restrictions"]
+    },
+    {
+        "id": 2,
+        "description": "Fetch nutritional information for the ingredients of the selected recipes.",
+        "domain": "medical",
+        "required_inputs": ["recipe ingredients list"]
+    },
+    {
+        "id": 3,
+        "description": "Retrieve vaccination guidelines for children attending gatherings.",
+        "domain": "medical",
+        "required_inputs": ["age range of children", "location (if region-specific guidelines are needed)"]
+    },
+    {
+        "id": 4,
+        "description": "Compile and present the recipes along with their nutritional information and vaccination guidelines.",
+        "domain": "Cross-Domain",
+        "required_inputs": ["recipe data", "nutritional information", "vaccination guidelines"]
+    }
+]
+}

@@ -1,0 +1,24 @@
+{
+"user_query":"I'm organizing a pizza party for my friends and family. I need to order multiple pizzas with different toppings and sizes. Can you give me the complete list of available pizzas and their respective sizes and crust options? Also, provide the details of the dessert options.",
+"domain":"Other",
+"TaskList": [
+{
+"id": 1,
+"description": "Request a complete list of available pizzas, their sizes, and crust options from the pizza restaurant's API.",
+"domain": "other",
+"required_inputs": []
+},
+{
+"id": 2,
+"description": "Request the available dessert options from the pizza restaurant's API.",
+"domain": "other",
+"required_inputs": []
+},
+{
+"id": 3,
+"description": "Combine the information from Step 1 and Step 2 to create a comprehensive menu for the pizza party.",
+"domain": "other",
+"required_inputs": ["Step 1 results", "Step 2 results"]
+}
+]
+}

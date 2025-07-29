@@ -1,0 +1,36 @@
+{
+"user_query":"My family is planning a vacation and we want to explore some sports activities. Can you provide the latest matches and odds from Betcity and Dreambet? We want to plan our itinerary around attending some exciting games and maybe even place a few bets.",
+"domain":"Cross-Domain",
+"TaskList": [
+    {
+        "id": 1,
+        "description": "Fetch the latest sports matches from Betcity.",
+        "domain": "Cross-Domain",
+        "required_inputs": []
+    },
+    {
+        "id": 2,
+        "description": "Fetch the latest sports matches from Dreambet.",
+        "domain": "Cross-Domain",
+        "required_inputs": []
+    },
+    {
+        "id": 3,
+        "description": "Fetch betting odds for the matches received from Betcity.",
+        "domain": "Cross-Domain",
+        "required_inputs": ["from Task 1"]
+    },
+    {
+        "id": 4,
+        "description": "Fetch betting odds for the matches received from Dreambet.",
+        "domain": "Cross-Domain",
+        "required_inputs": ["from Task 2"]
+    },
+    {
+        "id": 5,
+        "description": "Combine the match schedules and odds to create an itinerary.",
+        "domain": "Cross-Domain",
+        "required_inputs": ["from Task 3", "from Task 4"]
+    }
+]
+}

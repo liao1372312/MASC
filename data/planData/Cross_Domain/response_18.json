@@ -1,0 +1,24 @@
+{
+"user_query":"I'm planning a family gathering and we need some jokes to lighten the mood. Fetch a random joke and check if our family members exist on the Waifu platform to create personalized surprises. Additionally, provide the latest outcome of XXXtreme Lightning Roulette to add excitement to our gathering.",
+"domain":"Cross-Domain",
+"TaskList": [
+    {
+        "id": 1,
+        "description": "Fetch a random joke to lighten the mood.",
+        "domain": "technology",
+        "required_inputs": []
+    },
+    {
+        "id": 2,
+        "description": "Check for family members on the Waifu platform to create personalized surprises.",
+        "domain": "technology",
+        "required_inputs": ["list_of_family_members"]
+    },
+    {
+        "id": 3,
+        "description": "Fetch the latest outcome of XXXtreme Lightning Roulette to add excitement.",
+        "domain": "finance",
+        "required_inputs": []
+    }
+]
+}

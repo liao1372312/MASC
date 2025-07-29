@@ -1,0 +1,24 @@
+{
+"user_query":"I am planning a Bible study session with my family. Can you provide us with a random treasure from the Uncovered Treasure API to discuss during the session? Additionally, I would like to read verses from the book of Acts 21:8 using the Holy Bible API. Lastly, please suggest a topic from the Uncovered Treasure API that we can explore together.",
+"domain":"Cross-Domain",
+"TaskList": [
+{
+"id": 1,
+"description": "Retrieve a random treasure from the Uncovered Treasure API for discussion during the session.",
+"domain": "Cross-Domain",
+"required_inputs": []
+},
+{
+"id": 2,
+"description": "Use the Holy Bible API to read verses from the book of Acts 21:8.",
+"domain": "Cross-Domain",
+"required_inputs": []
+},
+{
+"id": 3,
+"description": "Suggest a topic from the Uncovered Treasure API for exploration during the session.",
+"domain": "Cross-Domain",
+"required_inputs": []
+}
+]
+}

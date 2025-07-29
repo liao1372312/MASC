@@ -1,0 +1,36 @@
+{
+"user_query":"Create a transfer database for the Italian football competition including transfer records, player info, trade value, game plan for the current season, and competition information.",
+"domain":"Other",
+"TaskList": [
+    {
+        "id": 1,
+        "description": "Fetch the transfer records for the Italian football competition.",
+        "domain": "other",
+        "required_inputs": ["competition_name", "season_year"]
+    },
+    {
+        "id": 2,
+        "description": "Retrieve player information for players in the Italian football competition.",
+        "domain": "other",
+        "required_inputs": ["competition_name", "season_year"]
+    },
+    {
+        "id": 3,
+        "description": "Get the trade value of players in the Italian football competition.",
+        "domain": "other",
+        "required_inputs": ["competition_name", "season_year"]
+    },
+    {
+        "id": 4,
+        "description": "Look up the game plan for the current season for teams in the Italian football competition.",
+        "domain": "other",
+        "required_inputs": ["competition_name", "season_year"]
+    },
+    {
+        "id": 5,
+        "description": "Gather short information about the current competitions in Italy.",
+        "domain": "other",
+        "required_inputs": ["competition_name"]
+    }
+]
+}

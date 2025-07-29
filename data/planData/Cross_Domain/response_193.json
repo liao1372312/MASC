@@ -1,0 +1,36 @@
+{
+"user_query":"Gather articles related to climate change from different publications excluding The Guardian.",
+"domain":"other",
+"TaskList": [
+    {
+        "id": 1,
+        "description": "Search for the latest articles related to climate change from NASA Climate.",
+        "domain": "other",
+        "required_inputs": ["keywords", "source"]
+    },
+    {
+        "id": 2,
+        "description": "Search for the latest articles related to climate change from United Nations.",
+        "domain": "other",
+        "required_inputs": ["keywords", "source"]
+    },
+    {
+        "id": 3,
+        "description": "Combine the articles obtained from NASA Climate and United Nations.",
+        "domain": "other",
+        "required_inputs": ["articles_from_nasa", "articles_from_un"]
+    },
+    {
+        "id": 4,
+        "description": "Filter combined articles to exclude any from The Guardian.",
+        "domain": "other",
+        "required_inputs": ["combined_articles"]
+    },
+    {
+        "id": 5,
+        "description": "Limit the final list of articles to 50.",
+        "domain": "other",
+        "required_inputs": ["filtered_articles"]
+    }
+]
+}

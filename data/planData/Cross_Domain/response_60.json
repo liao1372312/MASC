@@ -1,0 +1,30 @@
+{
+"user_query":"I'm organizing a charity event and I need some math facts related to the impact of donations. Can you also find some quotes about the importance of giving back? Additionally, I would like to include information about superheroes who are known for their philanthropic efforts.",
+"domain":"Cross-Domain",
+"TaskList": [
+    {
+        "id": 1,
+        "description": "Collect mathematical facts or statistics related to the impact of donations on charities.",
+        "domain": "finance",
+        "required_inputs": []
+    },
+    {
+        "id": 2,
+        "description": "Gather quotes about the importance of giving back.",
+        "domain": "Cross-Domain",
+        "required_inputs": []
+    },
+    {
+        "id": 3,
+        "description": "Research superheroes known for their philanthropic efforts, including their charitable acts and impacts.",
+        "domain": "Cross-Domain",
+        "required_inputs": []
+    },
+    {
+        "id": 4,
+        "description": "Compile and format the collected math facts, quotes, and superhero information for presentation at the charity event.",
+        "domain": "Cross-Domain",
+        "required_inputs": []
+    }
+]
+}

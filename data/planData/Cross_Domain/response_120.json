@@ -1,0 +1,24 @@
+{
+"user_query":"I want to find a good school for my children in San Jose, California. Can you provide me with a list of elementary schools in the area along with their ratings and reviews? Additionally, fetch me a motivational quote to inspire my children.",
+"domain":"Other",
+"TaskList": [
+{
+"id": 1,
+"description": "Fetch a list of elementary schools in San Jose, California.",
+"domain": "other",
+"required_inputs": ["location"]
+},
+{
+"id": 2,
+"description": "Retrieve ratings and reviews for each elementary school obtained in step 1.",
+"domain": "other",
+"required_inputs": ["list_of_schools"]
+},
+{
+"id": 3,
+"description": "Fetch a motivational quote to inspire children.",
+"domain": "other",
+"required_inputs": []
+}
+]
+}

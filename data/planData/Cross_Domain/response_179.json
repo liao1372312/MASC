@@ -1,0 +1,24 @@
+{
+"user_query":"I want to obtain the latest sports matches and odds for sports betting and get popular races in the Formula 1 schedule.",
+"domain":"Other",
+"TaskList": [
+{
+"id": 1,
+"description": "Retrieve the latest sports matches along with their odds for betting.",
+"domain": "sports",
+"required_inputs": []
+},
+{
+"id": 2,
+"description": "Extract the latest odds information for the retrieved sports matches.",
+"domain": "sports",
+"required_inputs": ["result from step 1"]
+},
+{
+"id": 3,
+"description": "Fetch the current Formula 1 schedule, highlighting the popular races.",
+"domain": "sports",
+"required_inputs": []
+}
+]
+}

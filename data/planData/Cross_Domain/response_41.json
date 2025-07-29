@@ -1,0 +1,30 @@
+{
+"user_query":"I'm planning a family trip to the beach and need to check the weather forecast. Can you provide me with the weather details, including temperature, humidity, and precipitation? Additionally, I want to compile a code snippet related to beach safety. Can you help me with an online code compiler and provide me with the compiled output?",
+"domain":"Cross-Domain",
+"TaskList": [
+{
+"id": 1,
+"description": "Check the weather forecast for the beach location, including temperature, humidity, and precipitation.",
+"domain": "tourism",
+"required_inputs": ["beach_location"]
+},
+{
+"id": 2,
+"description": "Based on the weather forecast from Subtask 1, determine if it's safe for a family trip.",
+"domain": "tourism",
+"required_inputs": ["weather_forecast"]
+},
+{
+"id": 3,
+"description": "Access an online code compiler to compile a beach safety related code snippet.",
+"domain": "technology",
+"required_inputs": ["code_snippet"]
+},
+{
+"id": 4,
+"description": "Retrieve the compiled output from the online code compiler from Subtask 3.",
+"domain": "technology",
+"required_inputs": ["compiler_output"]
+}
+]
+}

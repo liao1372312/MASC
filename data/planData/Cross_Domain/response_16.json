@@ -1,0 +1,24 @@
+{
+"user_query":"I want to plan an outdoor field trip by fetching air quality and weather data.",
+"domain":"Cross-Domain",
+"TaskList": [
+{
+"id": 1,
+"description": "Fetch the air quality forecast for tomorrow at the local park.",
+"domain": "environment",
+"required_inputs": ["location", "date"]
+},
+{
+"id": 2,
+"description": "Fetch the current weather data for the local park.",
+"domain": "environment",
+"required_inputs": ["location"]
+},
+{
+"id": 3,
+"description": "Analyze the air quality and current weather data to plan suitable activities for the field trip.",
+"domain": "planning",
+"required_inputs": ["air_quality_data", "current_weather_data"]
+}
+]
+}

@@ -1,0 +1,24 @@
+{
+"user_query":"I'm planning a family gathering and I need some delicious recipes to impress my guests. Can you provide me with the nutritional analysis of a recipe that includes chicken, broccoli, and quinoa? Also, recommend some environmentally friendly paper products for the event. Additionally, I would like to know the carbon footprint of a motorbike travel from my house to the venue.",
+"domain":"Cross-Domain",
+"TaskList": [
+    {
+        "id": 1,
+        "description": "Gather recipes that include chicken, broccoli, and quinoa, and analyze their nutritional content.",
+        "domain": "medical",
+        "required_inputs": ["recipe ingredients", "nutritional analysis criteria"]
+    },
+    {
+        "id": 2,
+        "description": "Research and recommend environmentally friendly paper products for the family gathering.",
+        "domain": "Cross-Domain",
+        "required_inputs": ["event type", "product categories"]
+    },
+    {
+        "id": 3,
+        "description": "Calculate the carbon footprint for a motorbike travel from the user's house to the event venue.",
+        "domain": "Cross-Domain",
+        "required_inputs": ["distance", "traffic conditions", "motorbike model"]
+    }
+]
+}

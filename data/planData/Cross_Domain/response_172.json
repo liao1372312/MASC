@@ -1,0 +1,24 @@
+{
+"user_query":"I want to surprise my friends with a unique gift. Can you help me find a product that falls under the category 'handmade'? Additionally, provide me with the translation of the word 'surprise' in French. Also, fetch the details of a specific handmade product with the ID 13579.",
+"domain":"Other",
+"TaskList": [
+{
+"id": 1,
+"description": "Fetch a list of handmade products based on category.",
+"domain": "other",
+"required_inputs": ["category=handmade"]
+},
+{
+"id": 2,
+"description": "Translate the word 'surprise' into French.",
+"domain": "other",
+"required_inputs": ["word=surprise", "language=French"]
+},
+{
+"id": 3,
+"description": "Fetch the details of the handmade product with ID 13579.",
+"domain": "other",
+"required_inputs": ["product_id=13579"]
+}
+]
+}

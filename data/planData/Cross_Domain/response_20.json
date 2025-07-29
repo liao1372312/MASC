@@ -1,0 +1,30 @@
+{
+"user_query":"I want to gather information about webcams in different countries and upcoming football predictions for the UEFA federation.",
+"domain":"Cross-Domain",
+"TaskList": [
+    {
+        "id": 1,
+        "description": "Collect a list of webcams available in different countries",
+        "domain": "tourism",
+        "required_inputs": ["country", "webcam_type", "region"]
+    },
+    {
+        "id": 2,
+        "description": "Aggregate the information from the API response to create a comprehensive list of webcams per region",
+        "domain": "tourism",
+        "required_inputs": ["webcam_data"]
+    },
+    {
+        "id": 3,
+        "description": "Fetch upcoming football predictions for the UEFA federation",
+        "domain": "technology",
+        "required_inputs": ["league", "event_type"]
+    },
+    {
+        "id": 4,
+        "description": "Combine the lists of webcams and football predictions to prepare a final report for the travel blog",
+        "domain": "Cross-Domain",
+        "required_inputs": ["webcam_list", "football_predictions"]
+    }
+]
+}

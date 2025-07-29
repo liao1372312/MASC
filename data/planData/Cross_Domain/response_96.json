@@ -1,0 +1,36 @@
+{
+"user_query":"I am planning a team-building event for my company. Can you provide me with ideas for fun activities, team-building exercises, and venues? Also, suggest some motivational speeches and provide me with the card information for booking the event space.",
+"domain":"Cross-Domain",
+"TaskList": [
+    {
+        "id": 1,
+        "description": "Research and compile a list of fun team-building activities suitable for a corporate event.",
+        "domain": "Cross-Domain",
+        "required_inputs": []
+    },
+    {
+        "id": 2,
+        "description": "Identify and suggest team-building exercises that encourage collaboration and communication among team members.",
+        "domain": "Cross-Domain",
+        "required_inputs": []
+    },
+    {
+        "id": 3,
+        "description": "Provide a list of potential venues for hosting the team-building event, including availability and capacity.",
+        "domain": "Cross-Domain",
+        "required_inputs": []
+    },
+    {
+        "id": 4,
+        "description": "Gather suggestions for motivational speeches or speakers that would fit the theme of the event.",
+        "domain": "Cross-Domain",
+        "required_inputs": []
+    },
+    {
+        "id": 5,
+        "description": "Inquire about venue booking options and payment information necessary for reserving the event space.",
+        "domain": "Cross-Domain",
+        "required_inputs": ["venue_id", "card_information"]
+    }
+]
+}

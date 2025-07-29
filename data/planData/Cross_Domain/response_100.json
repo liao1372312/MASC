@@ -1,0 +1,18 @@
+{
+"user_query":"I'm organizing a team-building event for my company and I want to start it off with some lighthearted jokes. Can you fetch jokes from the Jokester API and categorize them as 'team-building' and 'fun'? Also, it would be great if you could provide me with some motivational quotes from the mydailyinspiration API to inspire my team.",
+"domain":"Other",
+"TaskList": [
+{
+"id": 1,
+"description": "Fetch lighthearted jokes from the Jokester API categorized as 'team-building' and 'fun'.",
+"domain": "other",
+"required_inputs": ["category='team-building'", "category='fun'"]
+},
+{
+"id": 2,
+"description": "Fetch motivational quotes from the mydailyinspiration API to inspire the team.",
+"domain": "other",
+"required_inputs": []
+}
+]
+}

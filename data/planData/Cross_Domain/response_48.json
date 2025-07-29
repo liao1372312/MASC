@@ -1,0 +1,18 @@
+{
+"user_query":"I'm planning a movie night with my friends and we need some recommendations. Show us some comedy movies from the 'Comedy' category in the VOD App. Also, provide us with a funny 'Would You Rather' question to kick off the evening.",
+"domain":"Cross-Domain",
+"TaskList": [
+    {
+        "id": 1,
+        "description": "Fetch comedy movie recommendations from the VOD app.",
+        "domain": "technology",
+        "required_inputs": ["category: Comedy"]
+    },
+    {
+        "id": 2,
+        "description": "Generate a funny 'Would You Rather' question.",
+        "domain": "technology",
+        "required_inputs": []
+    }
+]
+}

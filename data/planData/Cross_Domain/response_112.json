@@ -1,0 +1,30 @@
+{
+"user_query":"I'm working on a project about historical figures and I need some interesting trivia.",
+"domain":"Other",
+"TaskList": [
+{
+"id": 1,
+"description": "Retrieve a trivia question about a historical figure.",
+"domain": "other",
+"required_inputs": []
+},
+{
+"id": 2,
+"description": "Get a math fact about the number 1729.",
+"domain": "other",
+"required_inputs": []
+},
+{
+"id": 3,
+"description": "Find a historical fact about the year 1492.",
+"domain": "other",
+"required_inputs": []
+},
+{
+"id": 4,
+"description": "Fetch a Chuck Norris joke.",
+"domain": "other",
+"required_inputs": []
+}
+]
+}

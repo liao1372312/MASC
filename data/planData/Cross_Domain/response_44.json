@@ -1,0 +1,24 @@
+{
+"user_query":"I'm planning a DIY project and need some tools and equipment. Can you recommend some best-selling products in the 'Tools' category on AliExpress? Additionally, provide the sales history of product ID 4001017422834 to understand their popularity. Oh, and it would be great if you could provide some step-by-step instructions for my DIY project.",
+"domain":"Cross-Domain",
+"TaskList": [
+    {
+        "id": 1,
+        "description": "Retrieve a list of best-selling products in the 'Tools' category on AliExpress.",
+        "domain": "technology",
+        "required_inputs": []
+    },
+    {
+        "id": 2,
+        "description": "Fetch sales history for product ID 4001017422834 to analyze its popularity.",
+        "domain": "technology",
+        "required_inputs": ["product ID 4001017422834"]
+    },
+    {
+        "id": 3,
+        "description": "Provide step-by-step instructions for the user's DIY project.",
+        "domain": "Cross-Domain",
+        "required_inputs": []
+    }
+]
+}

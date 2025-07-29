@@ -1,0 +1,24 @@
+{
+"user_query":"I'm organizing a charity event and I want to create compelling Facebook ads to raise awareness. Can you help me generate some impactful ad copy using AI? Also, I need to find a suitable venue for the event. Provide me with a list of available venues in San Francisco and their details.",
+"domain":"Other",
+"TaskList": [
+{
+"id": 1,
+"description":"Generate compelling ad copy for Facebook using AI",
+"domain":"other",
+"required_inputs":["event details","target audience","branding guidelines"]
+},
+{
+"id": 2,
+"description":"Query available venues in San Francisco for the event",
+"domain":"other",
+"required_inputs":["event type","date range","capacity requirements"]
+},
+{
+"id": 3,
+"description":"Compile details of the available venues and present them in a list",
+"domain":"other",
+"required_inputs":["venue data from step 2"]
+}
+]
+}

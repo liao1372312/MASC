@@ -1,0 +1,36 @@
+{
+"user_query":"I'm planning to start a new business selling house plants online. Can you give me a list of house plants that are popular and highly sought after? It would be great if you could provide their ideal temperature, light requirements, and watering needs.",
+"domain":"Cross-Domain",
+"TaskList": [
+    {
+        "id": 1,
+        "description": "Research and compile a list of popular house plants along with their specific care requirements.",
+        "domain": "Cross-Domain",
+        "required_inputs": []
+    },
+    {
+        "id": 2,
+        "description": "Gather information on the ideal temperature for each of the popular house plants identified in step 1.",
+        "domain": "Cross-Domain",
+        "required_inputs": ["subtask_1_result"]
+    },
+    {
+        "id": 3,
+        "description": "Find out the light requirements for each popular house plant identified in step 1.",
+        "domain": "Cross-Domain",
+        "required_inputs": ["subtask_1_result"]
+    },
+    {
+        "id": 4,
+        "description": "Determine the watering needs for each of the popular house plants identified in step 1.",
+        "domain": "Cross-Domain",
+        "required_inputs": ["subtask_1_result"]
+    },
+    {
+        "id": 5,
+        "description": "Compile all gathered information into a comprehensive list of house plants, including care details such as temperature, light, and watering needs.",
+        "domain": "Cross-Domain",
+        "required_inputs": ["subtask_2_result", "subtask_3_result", "subtask_4_result"]
+    }
+]
+}

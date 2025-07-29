@@ -1,0 +1,24 @@
+{
+"user_query":"I'm a small business owner looking for local market research data. Can you provide me with demographic information about the population in my city, including location coordinates and population size? Additionally, search for nearby administrative divisions and their details, such as population and elevation. Oh, and also search for product offers related to market research tools.",
+"domain":"Cross-Domain",
+"TaskList": [
+    {
+        "id": 1,
+        "description": "Query demographic information for the specified city, including population size and location coordinates.",
+        "domain": "finance",
+        "required_inputs": ["city_name"]
+    },
+    {
+        "id": 2,
+        "description": "Query data for nearby administrative divisions, including their population and elevation details.",
+        "domain": "finance",
+        "required_inputs": ["city_coordinates"]
+    },
+    {
+        "id": 3,
+        "description": "Search for product offers related to market research tools.",
+        "domain": "technology",
+        "required_inputs": ["market_research_category"]
+    }
+]
+}

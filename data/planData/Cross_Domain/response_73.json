@@ -1,0 +1,36 @@
+{
+"user_query":"I'm planning a family vacation and I need some financial insights for budgeting purposes, including latest market data, trading data, ceil transformation, and options and straddle information for a specific stock.",
+"domain":"Cross-Domain",
+"TaskList": [
+    {
+        "id": 1,
+        "description": "Collect the latest market data, including stock indices and trading volumes.",
+        "domain": "finance",
+        "required_inputs": []
+    },
+    {
+        "id": 2,
+        "description": "Perform ceil transformation on the collected market data to ensure proper rounding for financial calculations.",
+        "domain": "finance",
+        "required_inputs": ["data from Task 1"]
+    },
+    {
+        "id": 3,
+        "description": "Retrieve detailed trading data for specific stocks, including historical performance and current prices.",
+        "domain": "finance",
+        "required_inputs": []
+    },
+    {
+        "id": 4,
+        "description": "Explore options information for a specific stock, including strike prices and expiration dates.",
+        "domain": "finance",
+        "required_inputs": ["stock symbol"]
+    },
+    {
+        "id": 5,
+        "description": "Gather straddle information for the specific stock to evaluate potential strategies.",
+        "domain": "finance",
+        "required_inputs": ["stock symbol"]
+    }
+]
+}

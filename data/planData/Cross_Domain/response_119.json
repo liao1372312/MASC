@@ -1,0 +1,18 @@
+{
+"user_query":"I'm planning a girls' night in and we want to watch some romantic movies. Can you fetch the list of available romantic movies on Disney using the Disney worlds API? Additionally, provide us with the history of the last 20 spins from the ImmersiveRouletteAPI to add some excitement to our movie night.",
+"domain":"Other",
+"TaskList": [
+{
+"id": 1,
+"description": "Fetch the list of available romantic movies on Disney using the Disney worlds API.",
+"domain": "other",
+"required_inputs": ["movie_genre"]
+},
+{
+"id": 2,
+"description": "Fetch the history of the last 20 spins from the ImmersiveRouletteAPI.",
+"domain": "other",
+"required_inputs": ["number_of_spins"]
+}
+]
+}

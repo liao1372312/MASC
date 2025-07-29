@@ -1,0 +1,30 @@
+{
+"user_query":"I'm planning a vacation and I want to explore a new music genre. Can you recommend an artist and their top songs? Also, find images related to this music genre.",
+"domain":"Cross-Domain",
+"TaskList": [
+    {
+        "id": 1,
+        "description": "Research a new music genre to explore for vacation.",
+        "domain": "technology",
+        "required_inputs": []
+    },
+    {
+        "id": 2,
+        "description": "Identify a popular artist within the selected music genre.",
+        "domain": "technology",
+        "required_inputs": ["music_genre"]
+    },
+    {
+        "id": 3,
+        "description": "Retrieve the top songs from the identified artist.",
+        "domain": "technology",
+        "required_inputs": ["artist_name"]
+    },
+    {
+        "id": 4,
+        "description": "Find images related to the selected music genre.",
+        "domain": "technology",
+        "required_inputs": ["music_genre"]
+    }
+]
+}

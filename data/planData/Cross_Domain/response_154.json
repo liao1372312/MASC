@@ -1,0 +1,30 @@
+{
+"user_query":"I'm planning a surprise birthday party for my best friend and I need some ideas for food and desserts. Suggest some chicken dishes, desserts, and pizza that would be perfect for the party.",
+"domain":"Other",
+"TaskList": [
+    {
+        "id": 1,
+        "description": "Gather ideas for chicken dishes suitable for a birthday party.",
+        "domain": "other",
+        "required_inputs": []
+    },
+    {
+        "id": 2,
+        "description": "Gather ideas for desserts that would be perfect for a birthday celebration.",
+        "domain": "other",
+        "required_inputs": []
+    },
+    {
+        "id": 3,
+        "description": "Gather ideas for different types of pizza that can be served at the party.",
+        "domain": "other",
+        "required_inputs": []
+    },
+    {
+        "id": 4,
+        "description": "Compile a complete menu with suggested chicken dishes, desserts, and pizzas.",
+        "domain": "other",
+        "required_inputs": ["Results from Subtask 1", "Results from Subtask 2", "Results from Subtask 3"]
+    }
+]
+}

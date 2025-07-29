@@ -1,0 +1,24 @@
+{
+"user_query":"I'm planning a surprise birthday party for my mom and I want to create a slideshow of popular memes and heartwarming posts to celebrate her special day.",
+"domain":"Cross-Domain",
+"TaskList": [
+{
+"id": 1,
+"description": "Fetch the top heartwarming posts from the Reddit tool to gather content for the slideshow.",
+"domain": "Cross-Domain",
+"required_inputs": ["subreddit_name", "time_filter"]
+},
+{
+"id": 2,
+"description": "Fetch all the memes available from the Programming Memes Reddit tool to add humor to the slideshow.",
+"domain": "Cross-Domain",
+"required_inputs": ["subreddit_name"]
+},
+{
+"id": 3,
+"description": "Combine the heartwarming posts and memes into a slideshow format.",
+"domain": "Cross-Domain",
+"required_inputs": ["heartwarming_posts", "memes"]
+}
+]
+}

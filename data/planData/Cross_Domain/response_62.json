@@ -1,0 +1,25 @@
+{
+"user_query":"I'm looking to invest in real estate in Delray Beach, Florida. Can you fetch a list of available condominiums and townhouses in the city? Also, provide me with detailed information about a specific listing with the identifier M5215311859. Moreover, I'm curious about the license plate details for a specific number, 100TA49, in France. Can you help me with that?",
+"domain":"Cross-Domain",
+"TaskList": [
+    {
+        "id": 1,
+        "description": "Fetch a list of available condominiums and townhouses in Delray Beach, Florida.",
+        "domain": "finance",
+        "required_inputs": ["location"]
+    },
+    {
+        "id": 2,
+        "description": "Fetch detailed information about the specific real estate listing with identifier M5215311859.",
+        "domain": "finance",
+        "required_inputs": ["listing_id"],
+        "dependency": "Subtask 1"
+    },
+    {
+        "id": 3,
+        "description": "Retrieve license plate details for the number 100TA49 in France.",
+        "domain": "technology",
+        "required_inputs": ["license_plate_number"]
+    }
+]
+}

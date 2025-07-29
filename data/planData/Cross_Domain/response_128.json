@@ -1,0 +1,18 @@
+{
+"user_query":"I'm organizing a movie-themed event for my company and I need some interesting content. Fetch me the latest news articles related to movies. Additionally, provide me with information about the awards won by popular actors.",
+"domain":"Other",
+"TaskList": [
+{
+"id": 1,
+"description": "Fetch the latest news articles related to movies.",
+"domain": "other",
+"required_inputs": []
+},
+{
+"id": 2,
+"description": "Retrieve information about the awards won by popular actors.",
+"domain": "other",
+"required_inputs": []
+}
+]
+}

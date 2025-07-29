@@ -1,0 +1,18 @@
+{
+"user_query":"I'm planning a surprise party for my friend's birthday and I need some entertainment ideas.",
+"domain":"Cross-Domain",
+"TaskList": [
+    {
+        "id": 1,
+        "description": "Gather a list of popular tracks by the friend's favorite artist to create a playlist.",
+        "domain": "entertainment",
+        "required_inputs": ["favorite_artist"]
+    },
+    {
+        "id": 2,
+        "description": "Search for funny birthday-related jokes to include in the party decorations.",
+        "domain": "entertainment",
+        "required_inputs": ["occasion_type"]
+    }
+]
+}

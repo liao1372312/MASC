@@ -1,0 +1,30 @@
+{
+"user_query":"I need a business plan for my startup idea. It should include market analysis, financial projections, and a marketing strategy. Can you generate a comprehensive business plan that covers all aspects of starting a successful business?",
+"domain":"Cross-Domain",
+"TaskList": [
+    {
+        "id": 1,
+        "description": "Conduct market analysis to understand the target market, industry trends, and competitors.",
+        "domain": "Cross-Domain",
+        "required_inputs": ["startup_idea", "industry_type"]
+    },
+    {
+        "id": 2,
+        "description": "Generate financial projections including revenue forecasts, expense estimates, and cash flow analysis.",
+        "domain": "Finance",
+        "required_inputs": ["market_analysis_data", "business_model"]
+    },
+    {
+        "id": 3,
+        "description": "Develop a marketing strategy outlining target audience, marketing channels, and promotional plans.",
+        "domain": "Cross-Domain",
+        "required_inputs": ["market_analysis_data", "financial_projections"]
+    },
+    {
+        "id": 4,
+        "description": "Compile all the components (market analysis, financial projections, marketing strategy) into a comprehensive business plan document.",
+        "domain": "Cross-Domain",
+        "required_inputs": ["market_analysis", "financial_projections", "marketing_strategy"]
+    }
+]
+}

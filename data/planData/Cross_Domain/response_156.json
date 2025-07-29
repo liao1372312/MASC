@@ -1,0 +1,18 @@
+{
+"user_query":"My friend is looking for a property to rent in Melbourne with at least 2 bedrooms, a pool, and a garage. Please include the property details, such as price, location, and description.",
+"domain":"other",
+"TaskList": [
+    {
+        "id": 1,
+        "description": "Search for rental properties in Melbourne that meet the specified criteria (at least 2 bedrooms, a pool, and a garage).",
+        "domain": "other",
+        "required_inputs": ["location", "number_of_bedrooms", "amenities"]
+    },
+    {
+        "id": 2,
+        "description": "Retrieve detailed information about the properties found in the previous step, including price, location, and description.",
+        "domain": "other",
+        "required_inputs": ["property_listing"]
+    }
+]
+}

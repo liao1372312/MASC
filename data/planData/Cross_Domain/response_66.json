@@ -1,0 +1,30 @@
+{
+"user_query":"I'm planning a surprise birthday party for my best friend and I want to make it extra special. Can you provide me with a daily horoscope for tomorrow to get insights into what the stars have in store for her? Additionally, I would like to know her zodiac sign traits and compatibility with other signs using the Sign and Compatibility APIs.",
+"domain":"Cross-Domain",
+"TaskList": [
+{
+"id": 1,
+"description": "Determine the zodiac sign of the best friend based on her birth date.",
+"domain": "Cross-Domain",
+"required_inputs": ["birth_date"]
+},
+{
+"id": 2,
+"description": "Fetch the daily horoscope for the determined zodiac sign for tomorrow.",
+"domain": "Cross-Domain",
+"required_inputs": ["zodiac_sign", "date"]
+},
+{
+"id": 3,
+"description": "Retrieve the zodiac sign traits for the determined zodiac sign.",
+"domain": "Cross-Domain",
+"required_inputs": ["zodiac_sign"]
+},
+{
+"id": 4,
+"description": "Fetch compatibility information of the determined zodiac sign with other zodiac signs.",
+"domain": "Cross-Domain",
+"required_inputs": ["zodiac_sign"]
+}
+]
+}

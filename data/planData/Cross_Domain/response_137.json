@@ -1,0 +1,18 @@
+{
+"user_query":"Is it possible to find a word that starts with 'fru' and contains 'le'? Additionally, I need a random word that is seven letters long and starts with 'fru'.",
+"domain":"other",
+"TaskList": [
+{
+"id": 1,
+"description": "Search for a word that starts with 'fru' and contains 'le'.",
+"domain": "other",
+"required_inputs": []
+},
+{
+"id": 2,
+"description": "Generate a random word that is seven letters long and starts with 'fru'.",
+"domain": "other",
+"required_inputs": []
+}
+]
+}
